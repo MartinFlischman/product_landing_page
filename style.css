@@ -5,7 +5,7 @@ html {
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
     background: #fff;
 }
 
@@ -99,7 +99,7 @@ a {
 }
 
 .range {
-    width:250px;
+    width: 250px;
     height: auto;
 }
 
@@ -115,7 +115,7 @@ a {
     flex: 1;
 }
 
-.info   {
+.info {
     list-style: none;
 }
 
@@ -129,6 +129,6 @@ footer {
 }
 
 #btnUp {
-    width: 30px;
-    height: 30px;
+    width: 5px;
+    height: 5px;
 }
