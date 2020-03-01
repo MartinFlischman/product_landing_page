@@ -113,9 +113,6 @@ p {
 .buy {
     text-align: center;
     font-size: 21px;
-    float: right;
-    position: relative;
-    right: 42%;
     margin: 2px 0 0 0;
     padding: 0;
 }
@@ -123,9 +120,6 @@ p {
 .learn {
     text-align: center;
     font-size: 21px;
-    float: left;
-    position: relative;
-    left: 42%;
     margin: 2px 0 0 0;
     padding: 0;
 }
