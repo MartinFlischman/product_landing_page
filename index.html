@@ -4,20 +4,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product Landing Page</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">   
 </head>
 <body>
     <div id="wrapper">
         <header>
-            <div class="container">
+            <div class="navbar">
                 <nav>
                     <ul>
-                        <li><a class="logo" href="https://www.apple.com/" target="_blank"><img src="images/apple-logo.png" alt="Apple logo"></a></li>
+                        <li><a href="https://www.apple.com/" target="_blank"><img class="logo" src="images/logo.png" alt="Apple logo"></a></li>
                         <li><a class="nav-link" href="#iphone">iPhone</a></li>               
                         <li><a class="nav-link" href="#compare">Compare</a></li>
                         <li><a class="nav-link" href="#ios">iOS</a></li>
                         <li><a class="nav-link" href="#airpods">AirPods</a></li>
                         <li><a class="nav-link" href="#contact">Contact</a></li>
-                        <li><a class="support" href="https://support.apple.com/" target="_blank"><img src="images/product-search.png" alt="Apple support"></a></li>
+                        <li><a href="https://support.apple.com/" target="_blank"><img class="logo" src="images/search.png" alt="Apple support"></a></li>
                     </ul>
                 </nav>
             </div>
@@ -26,13 +27,12 @@
         <main>
             <div class="container">
                 <section id="iphone">
-                    <h3>iPhone 11 Pro</h3>
-                    <h1>Pro cameras. Pro display. Pro performance.</h1>
-                    <p>From $28.29/mo. or $679 with trade-in.*</p>
+                    <h1>iPhone 11 Pro</h1>
+                    <h3>Pro cameras. Pro display. Pro performance.</h3>
+                    <p class="pricing">From $28.29/mo. or $679 with trade-in.*</p>
                     <a href="#">Buy &gt;</a>
-                    <a href="#"><p>Learn more &gt;</p></a>
-                    <br>
-                    <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/cVEemOmHw9Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <a href="#"><p class="learn">Learn more &gt;</p></a>
+                    <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/cVEemOmHw9Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </section>
 
                 <br>
@@ -46,10 +46,10 @@
                             <div class="level"><h2>iPhone 11 Pro</h2></div>
                             <h4>Starting at $999</h4>
                             <ul>
-                                <li>All-new triple-camera system (Ultra Wide, Wide, Telephoto)</li>
-                                <li>Up to 20 hours of video playback.</li>
-                                <li>Water resistant to a depth of 4 meters for up to 30 minutes.</li>
-                                <li>5.8” or 6.5” Super Retina XDR display.</li>
+                                <li class="info">All-new triple-camera system (Ultra Wide, Wide, Telephoto)</li>
+                                <li class="info">Up to 20 hours of video playback.</li>
+                                <li class="info">Water resistant to a depth of 4 meters for up to 30 minutes.</li>
+                                <li class="info">5.8” or 6.5” Super Retina XDR display.</li>
                             </ul>
                             <button class="btn">Buy</button>
                             <a href="#"><p>Learn more &gt;</p></a>
@@ -59,23 +59,24 @@
                             <div class="level"><h2>iPhone 11</h2></div>
                             <h4>Starting at $699</h4>
                             <ul>
-                                <li>All-new dual-camera system (Ultra Wide, Wide)</li>
-                                <li>Up to 17 hours of video playback.</li>
-                                <li>Water resistant to a depth of 2 meters for up to 30 minutes.</li>
-                                <li>6.1” Liquid Retina HD display.</li>
+                                <li class="info">All-new dual-camera system (Ultra Wide, Wide)</li>
+                                <li class="info">Up to 17 hours of video playback.</li>
+                                <li class="info">Water resistant to a depth of 2 meters for up to 30 minutes.</li>
+                                <li class="info">6.1” Liquid Retina HD display.</li>
                             </ul>
                             <button class="btn">Buy</button>
                             <a href="#"><p>Learn more &gt;</p></a>
                         </div>
                         <div class="product3">
-                            <img class="range" src="images/iphone-xr.png" alt="Apple iPhone XR">
+                            <img class="range" 
+                            src="images/iphone-xr.png" alt="Apple iPhone XR">
                             <div class="level"><h2>iPhone XR</h2></div>
                             <h4>Starting at $599</h4>
                             <ul>
-                                <li>Single-camera system (Wide)</li>
-                                <li>Up to 16 hours of video playback.</li>
-                                <li>Water resistant to a depth of 1 meter for up to 30 minutes.</li>
-                                <li>6.1” Liquid Retina HD display.</li>
+                                <li class="info">Single-camera system (Wide)</li>
+                                <li class="info">Up to 16 hours of video playback.</li>
+                                <li class="info">Water resistant to a depth of 1 meter for up to 30 minutes.</li>
+                                <li class="info">6.1” Liquid Retina HD display.</li>
                             </ul>
                             <button class="btn">Buy</button>
                             <a href="#"><p>Learn more &gt;</p></a>
@@ -104,7 +105,7 @@
                     <h3>Works with your favorite apps</h3>
                     <p>An API lets third‑party developers implement Dark Mode in their apps.
                     </p>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/E5Jg4Wm9b7o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/E5Jg4Wm9b7o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </section>
 
                 <br>
