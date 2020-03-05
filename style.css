@@ -176,14 +176,14 @@ p {
 
 .sub1 {
     flex: 1;
-    width: 30%;
-    padding: 30px;
+    flex-basis: 30%;
+    margin: 30px;
 }
 
 .sub2 {
     flex: 1;
-    width: 30%;
-    padding: 30px;
+    flex-basis: 30%;
+    margin: 30px;
 }
 
 #accessories {
