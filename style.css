@@ -186,29 +186,19 @@ p {
     margin: 30px;
 }
 
-#accessories {
-    background: #161617;
-    color: #ffffff;
-}
-
-.airpods {
-    text-align: center;
-}
-
-.airpro {
-    position: relative;
+#contact {
+    margin: 40px 60px;
     display: flex;
 }
 
-.airreg {
-    position: relative;
-    display: flex;
+.help1 {
+    order: 2;
+    width: 40%;
 }
 
-.airimg {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.help1 {
+    order: 1;
+    width: 40%;
 }
 
 footer {
@@ -221,6 +211,7 @@ footer {
 }
 
 #btnUp {
-    width: 5px;
-    height: 5px;
+    width: auto;
+    height: 10px;
+    margin: 25px auto;
 }
