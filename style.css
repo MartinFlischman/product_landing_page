@@ -197,15 +197,11 @@ p {
 
 .airpro {
     position: relative;
-    top: 250px;
-    left: 310px;
     display: flex;
 }
 
 .airreg {
     position: relative;
-    top: 180px;
-    left: 910px;
     display: flex;
 }
 
